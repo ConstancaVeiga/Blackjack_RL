@@ -1,6 +1,7 @@
 from environment import BlackjackENV
 from environment_withSplit import BlackjackENVsplit
 from QV_learning import
+from Q_learning import QLearning
 
 # Train the agent
 agent_q = BlackjackQLearning()
